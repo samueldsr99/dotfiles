@@ -1,0 +1,8 @@
+{
+	"hello-samuel": {
+		"prefix": "samuel",
+		"body": [
+			"console.log('Hello samuel')"
+		]
+	}
+}

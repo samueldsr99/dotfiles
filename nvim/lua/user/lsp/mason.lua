@@ -1,4 +1,5 @@
 local servers = {
+  "astro",
   "sumneko_lua",
   "cssls",
   "html",
@@ -9,6 +10,7 @@ local servers = {
   "yamlls",
   "eslint",
   "tailwindcss",
+  "rust_analyzer",
 }
 
 local settings = {

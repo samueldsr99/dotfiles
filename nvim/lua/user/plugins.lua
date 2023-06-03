@@ -66,6 +66,9 @@ return packer.startup(function(use)
   use { "catppuccin/nvim", as = "catppuccin" }
   use { "morhetz/gruvbox" }
   use { "gosukiwi/vim-atom-dark" }
+  use { "doums/darcula" }
+  use { "briones-gabriel/darcula-solid.nvim" }
+  use { "rktjmp/lush.nvim" }
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" } -- The completion plugin

@@ -55,7 +55,7 @@ nvim_tree.setup {
   },
   view = {
     width = 30,
-    side = "left",
+    side = "right",
     mappings = {
       list = {
         { key = { "l", "<CR>", "o" }, cb = tree_cb "edit" },
@@ -63,5 +63,11 @@ nvim_tree.setup {
         { key = "v", cb = tree_cb "vsplit" },
       },
     },
+  },
+  filters = {
+    dotfiles = true,
+  },
+  git = {
+    ignore = false,
   },
 }
